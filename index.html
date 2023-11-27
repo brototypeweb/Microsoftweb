@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <title>W3School</title>
+    <link rel="icon" href="">
+    <link rel="SHORTCUT ICON" href="https://www.microsoft.com/favicon.ico?v2" type="image/x-icon"/>
+    <title>Microsoft</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
@@ -32,7 +33,7 @@
             </a>
             <!-- first section nav bar -->
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item font-size_12">
                   <a class="nav-link active" aria-current="page" href="#">Microsoft 365</a>
@@ -58,7 +59,7 @@
               </ul>
               <!-- second section nav bar -->
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item dropdown font-size_12">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> All Microsoft </a>
@@ -94,17 +95,12 @@
 
     <section>
       <div class="conatiner">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-          <!-- <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div> -->
+        <div class="carousel carousel-dark slide">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
               <div class="row align-items-center lightBlue-conatiner">
                 <div class="col-md-5">
-                  <div class="lightBlue-conatiner">
+                  <div class="lightBlue-conatiner px-g px-md-5 pt-4 pb-3 py-md-5 depth-lg-none bg-lg-transparent-text-dark">
                     <h1>Maximise the everyday with Microsoft 365</h1>
                     <p>Get online protection, secure cloud storage and innovative apps designed to fit your needs – all in one plan.</p>
 
@@ -117,7 +113,7 @@
                   </div>
                 </div>
                 <div class="col-md-7">
-                  <img id="img-highlight-uidf2c3" src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create:VP2-859x540" class="card-img w-100" alt="" />
+                  <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create:VP2-859x540" class="card-img w-100" alt="" />
                 </div>
               </div>
             </div>
@@ -149,8 +145,8 @@
     </section>
 
     <section>
-      <div class="container overflow-hidden container-middle">
-        <div class="row gx-5 margin-middle">
+      <div class="container">
+        <div class="row gx-5 margin-middle pt-5">
           <div class="col">
             <div class="text-center col-md-6">
               <div class="row">
@@ -301,6 +297,31 @@
       </div>
     </section>
 
+    <!-- bit picture  -->
+    <!--  -->
+    <!--  -->
+
+    <section>
+      <div class="container">
+        <div class="card-background">
+          <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-AEM-Game-Pass-Ultimate:VP2-859x540" class="card-img w-100" alt="A variety of games available on Game Pass" />
+        </div>
+
+        <div class="card border-0 material-md-card py-5 px-md-5 depth-lg-none bg-lg-transparent-text-light">
+          <div class="card-body">
+            <div>
+              <h2>Xbox Game Pass Ultimate</h2>
+            </div>
+            <div class="mb-4">Play new games on day one. Plus, enjoy hundreds of high-quality games with friends on console and PC.</div>
+
+            <div>
+              <a class="btn btn-primary" href="#"> Join now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- for bussiness -->
     <!--  -->
     <!--  -->
@@ -403,10 +424,7 @@
     <!--  -->
 
     <section>
-      <div class="container ">
-
-
-
+      <div class="container">
         <div class="d-inline align-middle mr-g">Follow Microsoft</div>
         <ul class="list-inline d-inline-block align-middle mb-0">
           <li class="list-inline-item mr-g socialfollow-li">
@@ -425,6 +443,24 @@
             </a>
           </li>
         </ul>
+      </div>
+    </section>
+
+    <!--  -->
+    <!-- back to top -->
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="align-middle p-4">
+            <div>
+              <button class="float-end ps-4 pe-4 border-0">
+                <h4 class="d-inline-block">&#8607;</h4>
+                Back to top
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -452,33 +488,27 @@
             <div class="col-12 col-sm-6 col-md-6 col-lg-2">
               <h5 class="footer-title">Microsoft Store</h5>
               <ul class="list-unstyled mb-0">
-                <li><a href="#!">Account profile</a></li>
-                <li><a href="#!">Download Center</a></li>
-                <li><a href="#!">Microsoft Store Support</a></li>
-                <li><a href="#!">Returns</a></li>
-                <li><a href="#!">Order tracking</a></li>
+                <li><a href="#!" class="font-size_12">Account profile</a></li>
+                <li><a href="#!" class="font-size_12">Download Center</a></li>
+                <li><a href="#!" class="font-size_12">Microsoft Store Support</a></li>
+                <li><a href="#!" class="font-size_12">Returns</a></li>
+                <li><a href="#!" class="font-size_12">Order tracking</a></li>
               </ul>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-2">
               <h5 class="footer-title">Education</h5>
               <ul class="list-unstyled mb-0">
+                <li><a href="#!" class="font-size_12">Microsoft in education</a></li>
+                <li><a href="#!" class="font-size_12">Devices for education</a></li>
+                <li><a href="#!" class="font-size_12">Microsoft Teams for Education</a></li>
                 <li>
-                  <a href="#!">Microsoft in education </a>
+                  <a href="#!" class="font-size_12">Microsoft 365 Education</a>
                 </li>
+                <li><a href="#!" class="font-size_12">Office Education</a></li>
                 <li>
-                  <a href="#!">Devices for education</a>
+                  <a href="#!" class="font-size_12">Deals for students and parents</a>
                 </li>
-                <li>
-                  <a href="#!">Microsoft Teams for Education</a>
-                </li>
-                <li>
-                  <a href="#!">Microsoft 365 Education</a>
-                </li>
-                <li><a href="#!">Office Education</a></li>
-                <li>
-                  <a href="#!">Deals for students and parents</a>
-                </li>
-                <li><a href="#!">Azure for students</a></li>
+                <li><a href="#!" class="font-size_12">Azure for students</a></li>
               </ul>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-2">
@@ -486,28 +516,28 @@
 
               <ul class="list-unstyled mb-0">
                 <li>
-                  <a href="#!">Microsoft Cloud</a>
+                  <a href="#!" class="font-size_12">Microsoft Cloud</a>
                 </li>
                 <li>
-                  <a href="#!">Microsoft Security</a>
+                  <a href="#!" class="font-size_12">Microsoft Security</a>
                 </li>
                 <li>
-                  <a href="#!">Azure</a>
+                  <a href="#!" class="font-size_12">Azure</a>
                 </li>
                 <li>
-                  <a href="#!">Dynamics 365</a>
+                  <a href="#!" class="font-size_12">Dynamics 365</a>
                 </li>
                 <li>
-                  <a href="#!">Microsoft 365</a>
+                  <a href="#!" class="font-size_12">Microsoft 365</a>
                 </li>
                 <li>
-                  <a href="#!">Microsoft Advertising</a>
+                  <a href="#!" class="font-size_12">Microsoft Advertising</a>
                 </li>
                 <li>
-                  <a href="#!">Microsoft Industry</a>
+                  <a href="#!" class="font-size_12">Microsoft Industry</a>
                 </li>
                 <li>
-                  <a href="#!">Microsoft Teams</a>
+                  <a href="#!" class="font-size_12">Microsoft Teams</a>
                 </li>
               </ul>
             </div>
@@ -517,28 +547,28 @@
 
               <ul class="list-unstyled mb-0">
                 <li>
-                  <a href="#!">Developer Center</a>
+                  <a href="#!" class="font-size_12">Developer Center</a>
                 </li>
                 <li>
-                  <a href="#!">Documentation</a>
+                  <a href="#!" class="font-size_12">Documentation</a>
                 </li>
                 <li>
-                  <a href="#!">Microsoft Learn</a>
+                  <a href="#!" class="font-size_12">Microsoft Learn</a>
                 </li>
                 <li>
-                  <a href="#!">Microsoft Tech Community</a>
+                  <a href="#!" class="font-size_12">Microsoft Tech Community</a>
                 </li>
                 <li>
-                  <a href="#!">Azure Marketplace</a>
+                  <a href="#!" class="font-size_12">Azure Marketplace</a>
                 </li>
                 <li>
-                  <a href="#!">AppSource</a>
+                  <a href="#!" class="font-size_12">AppSource</a>
                 </li>
                 <li>
-                  <a href="#!">Microsoft Power Platform</a>
+                  <a href="#!" class="font-size_12">Microsoft Power Platform</a>
                 </li>
                 <li>
-                  <a href="#!">Visual Studio</a>
+                  <a href="#!" class="font-size_12">Visual Studio</a>
                 </li>
               </ul>
             </div>
@@ -549,25 +579,25 @@
 
               <ul class="list-unstyled">
                 <li>
-                  <a href="#!">Careers</a>
+                  <a href="#!" class="font-size_12">Careers</a>
                 </li>
                 <li>
-                  <a href="#!">About Microsoft </a>
+                  <a href="#!" class="font-size_12">About Microsoft </a>
                 </li>
                 <li>
-                  <a href="#!">Company news </a>
+                  <a href="#!" class="font-size_12">Company news </a>
                 </li>
                 <li>
-                  <a href="#!">Privacy at Microsoft</a>
+                  <a href="#!" class="font-size_12">Privacy at Microsoft</a>
                 </li>
                 <li>
-                  <a href="#!">Investors</a>
+                  <a href="#!" class="font-size_12">Investors</a>
                 </li>
                 <li>
-                  <a href="#!">Security</a>
+                  <a href="#!" class="font-size_12">Security</a>
                 </li>
                 <li>
-                  <a href="#!">Sustainability</a>
+                  <a href="#!" class="font-size_12">Sustainability</a>
                 </li>
               </ul>
             </div>
@@ -576,10 +606,23 @@
         </div>
 
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05)">
-          © 2020 Copyright:
-          <a href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>
+        <section>
+          <div class="row  ps-5 pe-5">
+            <div class="container">
+              <div class="float-end">
+                <ul class="list-group list-group-horizontal text-center p-3 align-items-start align-content-center">
+                  <li class="list-group-item bg-transparent border-0"><a href="#" class="font-size_12"> Contact Microsoft </a></li>
+                  <li class="list-group-item bg-transparent border-0"><a href="#" class="font-size_12"> Privacy </a></li>
+                  <li class="list-group-item bg-transparent border-0"><a href="#" class="font-size_12"> Terms of use </a></li>
+                  <li class="list-group-item bg-transparent border-0"><a href="#" class="font-size_12"> Trademarks </a></li>
+                  <li class="list-group-item bg-transparent border-0"><a href="#" class="font-size_12"> About our ads </a></li>
+                  <li class="list-group-item bg-transparent border-0"><a href="#" class="font-size_12">© Microsoft 2023 </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <!-- Copyright -->
       </footer>
       <!-- Footer -->
